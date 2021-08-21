@@ -1,0 +1,17 @@
+.user-wrapper .content-section {
+    background: rgb(255, 255, 255);
+  }
+  
+  .user-wrapper .scrolled-nav {
+    height: auto;
+  }
+  
+  .user-wrapper .counter {
+    width: 20px;
+    height: 20px;
+    background: black;
+    color: #fff;
+    position: fixed;
+    top: 120px;
+    right: 0;
+  }

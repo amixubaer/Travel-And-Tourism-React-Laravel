@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+
+.user-wrapper .search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.user-wrapper .searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 50px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.user-wrapper .searchTerm:focus{
+  color: #00B4CC;
+}
+
+.user-wrapper .searchButton {
+  width: 40px;
+  height: 50px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.user-wrapper .wrap{
+  width: 30%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.user-wrapper .biscuits{
+  width: 30%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.user-wrapper .button {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  margin: 5px;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.user-wrapper .button:hover {
+  background-color: RoyalBlue;
+  color: yellow;
+}
